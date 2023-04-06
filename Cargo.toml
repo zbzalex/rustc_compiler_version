@@ -1,0 +1,18 @@
+[package]
+name = "rustc_get_version"
+version = "0.1.1"
+edition = "2021"
+license = "MIT"
+description = "rust compiler get version utility"
+homepage = "https://github.com/zbzalex"
+include = [
+  "**/*.rs",
+  'Cargo.toml'
+]
+documentation="https://docs.rs/rustc_get_version"
+keywords = [
+  "compiler",
+]
+
+[dependencies]
+regex = "1.7.3"
